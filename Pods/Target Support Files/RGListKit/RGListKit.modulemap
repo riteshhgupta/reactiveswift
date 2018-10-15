@@ -1,0 +1,6 @@
+framework module RGListKit {
+  umbrella header "RGListKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

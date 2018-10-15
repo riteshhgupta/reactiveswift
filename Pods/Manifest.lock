@@ -1,0 +1,43 @@
+PODS:
+  - ProtoKit (1.2)
+  - ReactiveCocoa (7.2.0):
+    - ReactiveSwift (~> 3.1)
+  - ReactiveSwift (3.1.0):
+    - Result (~> 3.2)
+  - Result (3.2.4)
+  - RGListKit/Core (1.0):
+    - ProtoKit (~> 1.2)
+  - RGListKit/ReactiveSwift (1.0):
+    - ReactiveCocoa (~> 7.0)
+    - ReactiveSwift (~> 3.0)
+    - RGListKit/Core
+
+DEPENDENCIES:
+  - RGListKit/ReactiveSwift (from `https://github.com/riteshhgupta/RGListKit.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ProtoKit
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+
+EXTERNAL SOURCES:
+  RGListKit:
+    :git: https://github.com/riteshhgupta/RGListKit.git
+
+CHECKOUT OPTIONS:
+  RGListKit:
+    :commit: 8e9f55b98b36aae177676be8293a09e495e348f9
+    :git: https://github.com/riteshhgupta/RGListKit.git
+
+SPEC CHECKSUMS:
+  ProtoKit: 08d7a7537be05085bb18da133aafa3b13d2cb396
+  ReactiveCocoa: 476dae7ca790f40d30d186a1bd7ebae4290395d5
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RGListKit: ac72d9ab83e8e93a57dd9beb61c534f5dd794d6f
+
+PODFILE CHECKSUM: 3187ffd711ec60b356eecc211ef5e75c881a0523
+
+COCOAPODS: 1.5.3
