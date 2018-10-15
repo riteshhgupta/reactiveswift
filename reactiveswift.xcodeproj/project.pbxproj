@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3D7CADC32174C36600BB0AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CADC22174C36600BB0AAE /* AppDelegate.swift */; };
-		3D7CADC52174C36600BB0AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CADC42174C36600BB0AAE /* ViewController.swift */; };
 		3D7CADC82174C36600BB0AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CADC62174C36600BB0AAE /* Main.storyboard */; };
 		3D7CADCA2174C36800BB0AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CADC92174C36800BB0AAE /* Assets.xcassets */; };
 		3D7CADCD2174C36800BB0AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CADCB2174C36800BB0AAE /* LaunchScreen.storyboard */; };
+		3D92A1102174C8AD00E55135 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92A10F2174C8AD00E55135 /* HomeViewController.swift */; };
 		F6C7DAEDFD98E7555673C903 /* Pods_reactiveswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9422630CA9B20E5C3F9A01F /* Pods_reactiveswift.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +20,11 @@
 		30835F7927BF3F98F492227D /* Pods-reactiveswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveswift/Pods-reactiveswift.release.xcconfig"; sourceTree = "<group>"; };
 		3D7CADBF2174C36600BB0AAE /* reactiveswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactiveswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7CADC22174C36600BB0AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D7CADC42174C36600BB0AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D7CADC72174C36600BB0AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D7CADC92174C36800BB0AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7CADCC2174C36800BB0AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7CADCE2174C36800BB0AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D92A10F2174C8AD00E55135 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F9422630CA9B20E5C3F9A01F /* Pods_reactiveswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactiveswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				3D7CADC22174C36600BB0AAE /* AppDelegate.swift */,
-				3D7CADC42174C36600BB0AAE /* ViewController.swift */,
+				3D92A10F2174C8AD00E55135 /* HomeViewController.swift */,
 				3D7CADC62174C36600BB0AAE /* Main.storyboard */,
 				3D7CADC92174C36800BB0AAE /* Assets.xcassets */,
 				3D7CADCB2174C36800BB0AAE /* LaunchScreen.storyboard */,
@@ -216,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7CADC52174C36600BB0AAE /* ViewController.swift in Sources */,
 				3D7CADC32174C36600BB0AAE /* AppDelegate.swift in Sources */,
+				3D92A1102174C8AD00E55135 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
