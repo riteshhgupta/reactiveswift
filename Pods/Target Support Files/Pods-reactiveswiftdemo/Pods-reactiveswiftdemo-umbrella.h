@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_reactiveswiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_reactiveswiftVersionString[];
+FOUNDATION_EXPORT double Pods_reactiveswiftdemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_reactiveswiftdemoVersionString[];
 

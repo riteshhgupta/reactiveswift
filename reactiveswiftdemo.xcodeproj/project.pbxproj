@@ -7,24 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D7AA2D32174E3D60035F285 /* TagListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AA2D22174E3D60035F285 /* TagListCell.swift */; };
 		3D7CADC32174C36600BB0AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CADC22174C36600BB0AAE /* AppDelegate.swift */; };
 		3D7CADC82174C36600BB0AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CADC62174C36600BB0AAE /* Main.storyboard */; };
 		3D7CADCA2174C36800BB0AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CADC92174C36800BB0AAE /* Assets.xcassets */; };
 		3D7CADCD2174C36800BB0AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CADCB2174C36800BB0AAE /* LaunchScreen.storyboard */; };
 		3D92A1102174C8AD00E55135 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92A10F2174C8AD00E55135 /* HomeViewController.swift */; };
-		F6C7DAEDFD98E7555673C903 /* Pods_reactiveswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9422630CA9B20E5C3F9A01F /* Pods_reactiveswift.framework */; };
+		3D92A1152174C91E00E55135 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D92A1132174C91E00E55135 /* TagCell.xib */; };
+		3D92A1172174CB2300E55135 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92A1162174CB2300E55135 /* Extensions.swift */; };
+		3D92A11B2174E19700E55135 /* TagListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D92A1192174E19700E55135 /* TagListCell.xib */; };
+		3D92A11F2174E28900E55135 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92A11E2174E28900E55135 /* TagCell.swift */; };
+		3DB4B3D6217890AD00CFCA42 /* OverError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B3D5217890AD00CFCA42 /* OverError.swift */; };
+		3DB4B3D8217890B900CFCA42 /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B3D7217890B900CFCA42 /* AnalyticsEvent.swift */; };
+		3DB4B3DA217890D500CFCA42 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B3D9217890D500CFCA42 /* HomeViewModel.swift */; };
+		3DD40BA021772DCC00671683 /* QuickStartListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD40B9F21772DCC00671683 /* QuickStartListCell.swift */; };
+		3DD40BA321772E8700671683 /* QuickStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD40BA121772E8700671683 /* QuickStartCell.swift */; };
+		3DD40BA421772E8700671683 /* QuickStartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD40BA221772E8700671683 /* QuickStartCell.xib */; };
+		3DD40BA62177326700671683 /* QuickStartListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD40BA52177326700671683 /* QuickStartListCell.xib */; };
+		3DD40BA82177D3B300671683 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD40BA72177D3B300671683 /* Helpers.swift */; };
+		AE922ECE0FBB09FE526A5A3F /* Pods_reactiveswiftdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48AC7CB2C1268E17A4F6954 /* Pods_reactiveswiftdemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01F29309016F6115835227E0 /* Pods-reactiveswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveswift/Pods-reactiveswift.debug.xcconfig"; sourceTree = "<group>"; };
 		30835F7927BF3F98F492227D /* Pods-reactiveswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveswift/Pods-reactiveswift.release.xcconfig"; sourceTree = "<group>"; };
-		3D7CADBF2174C36600BB0AAE /* reactiveswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactiveswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7AA2D22174E3D60035F285 /* TagListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListCell.swift; sourceTree = "<group>"; };
+		3D7CADBF2174C36600BB0AAE /* reactiveswiftdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactiveswiftdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7CADC22174C36600BB0AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D7CADC72174C36600BB0AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D7CADC92174C36800BB0AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7CADCC2174C36800BB0AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7CADCE2174C36800BB0AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D92A10F2174C8AD00E55135 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D92A1132174C91E00E55135 /* TagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		3D92A1162174CB2300E55135 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3D92A1192174E19700E55135 /* TagListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagListCell.xib; sourceTree = "<group>"; };
+		3D92A11E2174E28900E55135 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		3DB4B3D5217890AD00CFCA42 /* OverError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverError.swift; sourceTree = "<group>"; };
+		3DB4B3D7217890B900CFCA42 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		3DB4B3D9217890D500CFCA42 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3DD40B9F21772DCC00671683 /* QuickStartListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartListCell.swift; sourceTree = "<group>"; };
+		3DD40BA121772E8700671683 /* QuickStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartCell.swift; sourceTree = "<group>"; };
+		3DD40BA221772E8700671683 /* QuickStartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickStartCell.xib; sourceTree = "<group>"; };
+		3DD40BA52177326700671683 /* QuickStartListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickStartListCell.xib; sourceTree = "<group>"; };
+		3DD40BA72177D3B300671683 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		4633244153929BEA2D4387DF /* Pods-reactiveswiftdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveswiftdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveswiftdemo/Pods-reactiveswiftdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		81C44A0FA55A15EA4F8A5BC9 /* Pods-reactiveswiftdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveswiftdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveswiftdemo/Pods-reactiveswiftdemo.release.xcconfig"; sourceTree = "<group>"; };
+		D48AC7CB2C1268E17A4F6954 /* Pods_reactiveswiftdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactiveswiftdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9422630CA9B20E5C3F9A01F /* Pods_reactiveswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactiveswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C7DAEDFD98E7555673C903 /* Pods_reactiveswift.framework in Frameworks */,
+				AE922ECE0FBB09FE526A5A3F /* Pods_reactiveswiftdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +82,7 @@
 		3D7CADC02174C36600BB0AAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D7CADBF2174C36600BB0AAE /* reactiveswift.app */,
+				3D7CADBF2174C36600BB0AAE /* reactiveswiftdemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +90,10 @@
 		3D7CADC12174C36600BB0AAE /* reactiveswift */ = {
 			isa = PBXGroup;
 			children = (
+				3DB4B3D42178909600CFCA42 /* Demo */,
 				3D7CADC22174C36600BB0AAE /* AppDelegate.swift */,
-				3D92A10F2174C8AD00E55135 /* HomeViewController.swift */,
+				3DD40BA72177D3B300671683 /* Helpers.swift */,
+				3D92A1162174CB2300E55135 /* Extensions.swift */,
 				3D7CADC62174C36600BB0AAE /* Main.storyboard */,
 				3D7CADC92174C36800BB0AAE /* Assets.xcassets */,
 				3D7CADCB2174C36800BB0AAE /* LaunchScreen.storyboard */,
@@ -71,11 +102,40 @@
 			path = reactiveswift;
 			sourceTree = "<group>";
 		};
+		3D92A1112174C8E100E55135 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DD40BA121772E8700671683 /* QuickStartCell.swift */,
+				3DD40BA221772E8700671683 /* QuickStartCell.xib */,
+				3DD40B9F21772DCC00671683 /* QuickStartListCell.swift */,
+				3DD40BA52177326700671683 /* QuickStartListCell.xib */,
+				3D92A11E2174E28900E55135 /* TagCell.swift */,
+				3D92A1132174C91E00E55135 /* TagCell.xib */,
+				3D7AA2D22174E3D60035F285 /* TagListCell.swift */,
+				3D92A1192174E19700E55135 /* TagListCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DB4B3D42178909600CFCA42 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3D92A1112174C8E100E55135 /* Views */,
+				3D92A10F2174C8AD00E55135 /* HomeViewController.swift */,
+				3DB4B3D9217890D500CFCA42 /* HomeViewModel.swift */,
+				3DB4B3D5217890AD00CFCA42 /* OverError.swift */,
+				3DB4B3D7217890B900CFCA42 /* AnalyticsEvent.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		A6428BC9ED7048656214CBB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				01F29309016F6115835227E0 /* Pods-reactiveswift.debug.xcconfig */,
 				30835F7927BF3F98F492227D /* Pods-reactiveswift.release.xcconfig */,
+				4633244153929BEA2D4387DF /* Pods-reactiveswiftdemo.debug.xcconfig */,
+				81C44A0FA55A15EA4F8A5BC9 /* Pods-reactiveswiftdemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				F9422630CA9B20E5C3F9A01F /* Pods_reactiveswift.framework */,
+				D48AC7CB2C1268E17A4F6954 /* Pods_reactiveswiftdemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D7CADBE2174C36600BB0AAE /* reactiveswift */ = {
+		3D7CADBE2174C36600BB0AAE /* reactiveswiftdemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D7CADD12174C36800BB0AAE /* Build configuration list for PBXNativeTarget "reactiveswift" */;
+			buildConfigurationList = 3D7CADD12174C36800BB0AAE /* Build configuration list for PBXNativeTarget "reactiveswiftdemo" */;
 			buildPhases = (
 				0C94B81F4EE2D4BA496E8B9D /* [CP] Check Pods Manifest.lock */,
 				3D7CADBB2174C36600BB0AAE /* Sources */,
@@ -105,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = reactiveswift;
+			name = reactiveswiftdemo;
 			productName = reactiveswift;
-			productReference = 3D7CADBF2174C36600BB0AAE /* reactiveswift.app */;
+			productReference = 3D7CADBF2174C36600BB0AAE /* reactiveswiftdemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D7CADBA2174C36600BB0AAE /* Build configuration list for PBXProject "reactiveswift" */;
+			buildConfigurationList = 3D7CADBA2174C36600BB0AAE /* Build configuration list for PBXProject "reactiveswiftdemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D7CADBE2174C36600BB0AAE /* reactiveswift */,
+				3D7CADBE2174C36600BB0AAE /* reactiveswiftdemo */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D7CADCD2174C36800BB0AAE /* LaunchScreen.storyboard in Resources */,
+				3D92A1152174C91E00E55135 /* TagCell.xib in Resources */,
+				3DD40BA421772E8700671683 /* QuickStartCell.xib in Resources */,
+				3DD40BA62177326700671683 /* QuickStartListCell.xib in Resources */,
+				3D92A11B2174E19700E55135 /* TagListCell.xib in Resources */,
 				3D7CADCA2174C36800BB0AAE /* Assets.xcassets in Resources */,
 				3D7CADC82174C36600BB0AAE /* Main.storyboard in Resources */,
 			);
@@ -172,7 +237,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactiveswift-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactiveswiftdemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -187,12 +252,13 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-reactiveswift/Pods-reactiveswift-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-reactiveswiftdemo/Pods-reactiveswiftdemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ProtoKit/ProtoKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RGListKit/RGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -203,10 +269,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactiveswift/Pods-reactiveswift-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reactiveswiftdemo/Pods-reactiveswiftdemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -216,8 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD40BA021772DCC00671683 /* QuickStartListCell.swift in Sources */,
+				3DB4B3DA217890D500CFCA42 /* HomeViewModel.swift in Sources */,
 				3D7CADC32174C36600BB0AAE /* AppDelegate.swift in Sources */,
+				3DD40BA321772E8700671683 /* QuickStartCell.swift in Sources */,
+				3DB4B3D6217890AD00CFCA42 /* OverError.swift in Sources */,
+				3DD40BA82177D3B300671683 /* Helpers.swift in Sources */,
+				3D7AA2D32174E3D60035F285 /* TagListCell.swift in Sources */,
+				3D92A11F2174E28900E55135 /* TagCell.swift in Sources */,
+				3DB4B3D8217890B900CFCA42 /* AnalyticsEvent.swift in Sources */,
 				3D92A1102174C8AD00E55135 /* HomeViewController.swift in Sources */,
+				3D92A1172174CB2300E55135 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +439,7 @@
 		};
 		3D7CADD22174C36800BB0AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01F29309016F6115835227E0 /* Pods-reactiveswift.debug.xcconfig */;
+			baseConfigurationReference = 4633244153929BEA2D4387DF /* Pods-reactiveswiftdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,7 +458,7 @@
 		};
 		3D7CADD32174C36800BB0AAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30835F7927BF3F98F492227D /* Pods-reactiveswift.release.xcconfig */;
+			baseConfigurationReference = 81C44A0FA55A15EA4F8A5BC9 /* Pods-reactiveswiftdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D7CADBA2174C36600BB0AAE /* Build configuration list for PBXProject "reactiveswift" */ = {
+		3D7CADBA2174C36600BB0AAE /* Build configuration list for PBXProject "reactiveswiftdemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D7CADCF2174C36800BB0AAE /* Debug */,
@@ -411,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D7CADD12174C36800BB0AAE /* Build configuration list for PBXNativeTarget "reactiveswift" */ = {
+		3D7CADD12174C36800BB0AAE /* Build configuration list for PBXNativeTarget "reactiveswiftdemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D7CADD22174C36800BB0AAE /* Debug */,
